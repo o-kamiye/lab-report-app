@@ -1,0 +1,63 @@
+/**
+* @author Oluwakamiye <kamiye@tinweb.com.ng>
+* @description Style sheet for Pathology test report application
+*/
+
+/**
+* General
+*/
+
+body {
+	position: relative;
+}
+
+button {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/**
+* Home page
+*/
+
+#login-form-container, #create-admin-form-container {
+	margin-top: 50%;
+	padding: 10px;
+	border-radius: 5px;
+	background: #99BE69;
+}
+
+#login-form-container a {
+	color: white;
+}
+
+.fa-trash {
+	color: red;
+}
+
+.delete {
+	cursor: pointer;
+}
+
+.ui-widget-header,.ui-state-default, ui-button{
+    background:#b9cd6d;
+    border: 1px solid #b9cd6d;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+
+ .third-width {
+ 	width: 33%;
+ }
+
+ .quarter-width {
+ 	width: 25%;
+ }
+
+ #add-report-form-container .panel {
+ 	overflow: auto;
+ }
+
+ #send-report-mail {
+ 	margin-left: 20px;
+ }
